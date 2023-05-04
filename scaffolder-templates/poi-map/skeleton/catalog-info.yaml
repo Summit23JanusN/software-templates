@@ -26,7 +26,7 @@ metadata:
     - url: https://devspaces${{values.cluster_id}}/#https://github.com/${{values.githubOrg}}/${{values.repoName}}?che-editor=che-incubator/che-code/latest&devfilePath=.devfile-vscode.yaml
       title: OpenShift Dev Spaces (VS Code)
       icon: web
-    - url: https://${{values.component_id}}-${{values.namespace}}${{values.cluster_id}}
+    - url: http://${{values.component_id}}-${{values.namespace}}${{values.cluster_id}}
       title: Map
       icon: web
 spec:
