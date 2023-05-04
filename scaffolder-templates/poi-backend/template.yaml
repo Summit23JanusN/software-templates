@@ -47,12 +47,12 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster
-          default: .summit23bis.17gd.p1.openshiftapps.com
+          default: .apps.summit23bis.17gd.p1.openshiftapps.com
         namespace: 
           title: Namespace
           type: string
           description: Namespace
-          default: <NAMESPACE>
+          default: NAMESPACE
         owner:
           title: Owner
           type: string
@@ -75,7 +75,7 @@ spec:
         image_name:
           title: Image Name
           type: string
-          default: <NAMESPACE>/poi-backend-app
+          default: NAMESPACE/poi-backend-app
           description: Image name to use for storing in the internal registry
         image_tag:
           title: Image Tag
